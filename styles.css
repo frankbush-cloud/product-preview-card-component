@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --clr-darkblue: hsl(212, 21%, 14%);
+    --clr-Darkgrayishblue: hsl(228, 12%, 48%);
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Darkcyan: hsl(158, 36%, 37%);
+--clr-Cream: hsl(30, 38%, 92%);
+}
+
+
+/* body */
+body{
+background-color: var(--clr-Cream);
+display: grid;
+justify-content: center;
+justify-items: center;
+align-items: center;
+align-content: center;
+max-width: 1440px;
+font-size: 15px;
+height: 100vh;
+font-weight: 500;
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center;
+    color;: var(--clr-White)
+    
+
+}
+
+.product-img{
+border-radius: 1rem 0 0 1rem;
+width: 300px;
+max-height: 600px;
+}
+.card2{
+    background-color: var(--clr-White);
+    padding: 2rem;
+    border-radius: 0 1rem 1rem 0;
+    max-width: 300px;
+    max-height: 600px;
+}
+.perfume{
+    font-family: "montserrat", sanas serrif;
+    letter-spacing: 0.4rem;
+    color: var(--clr-Darkgrayishblue);
+    font-size: 11px;
+}
+.text{
+    position: relative;
+    top: 1rem;
+    font-family: "Fraunces", sans-serif;
+}
+.text h1{
+    font-weight: 500, 700px;
+    line-height: 28px;
+}
+
+.text p{
+    color: var(--clr-Darkgrayishblue);
+    font-family: "Montserrat";
+    line-height: 1.5rem;
+    position: relative;
+    top: 1.3rem;
+    font-size: 14px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  position: relative;
+  top: 4rem;
+}
+
+.dollar{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--clr-Darkcyan);
+    font-family: "Fraunces", serif;
+    position: relative;
+    left: -16px;
+
+}
+.cancelled-dollar{
+    margin-top: 0.3rem;
+    text-decoration: line-through;
+    font-family: "Montserrat", sans-serif;
+    color: var(--clr-Darkgrayishblue);
+    font-size: 14px;
+    position: relative;
+    left: -20px;
+}
+.cart{
+    background-color: var(--clr-Darkcyan);
+    padding: 13px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    top: 7rem;
+    cursor: pointer;
+    width: 100%;
+    border: 0;
+
+
+}
+.cart img{
+    margin-right: 0.8rem;
+    position: relative;
+    top: 0.1rem;
+}
+
+.cart:hover,
+.cart:active{
+    background-color: var(--clr-Darkgrayishblue);
+}
+.icon{
+    color: black;
+}
+
+.attribution{
+    margin-top: 2rem;
+}
+
+ 
